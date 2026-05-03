@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 420" role="img" aria-labelledby="title">
+  <title id="title">Orbit mission diagram</title>
+  <defs>
+    <linearGradient id="space" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#07111d"/>
+    </linearGradient>
+  </defs>
+  <rect width="920" height="420" rx="28" fill="url(#space)"/>
+  <circle cx="214" cy="248" r="92" fill="#34d5ff" opacity=".18"/>
+  <circle cx="214" cy="248" r="62" fill="#315f7f"/>
+  <path d="M132 237c61 16 116 12 165-12M156 287c41-17 85-18 132-1" fill="none" stroke="#7ddc9b" stroke-width="4" opacity=".75"/>
+  <ellipse cx="462" cy="236" rx="340" ry="116" fill="none" stroke="#ffffff" stroke-width="2" opacity=".22"/>
+  <ellipse cx="462" cy="236" rx="250" ry="80" fill="none" stroke="#34d5ff" stroke-width="3" opacity=".42"/>
+  <g transform="translate(604 154) rotate(18)">
+    <rect x="-34" y="-20" width="68" height="40" rx="8" fill="#f8fafc"/>
+    <rect x="-96" y="-14" width="48" height="28" rx="4" fill="#34d5ff" opacity=".75"/>
+    <rect x="48" y="-14" width="48" height="28" rx="4" fill="#34d5ff" opacity=".75"/>
+  </g>
+  <path d="M312 318c98 30 216 31 348 4" fill="none" stroke="#ff7a3d" stroke-width="4" opacity=".65"/>
+  <text x="52" y="70" fill="#f7fbff" font-family="Arial, sans-serif" font-size="32" font-weight="700">From launch to orbit</text>
+  <text x="52" y="106" fill="#a9b4c2" font-family="Arial, sans-serif" font-size="18">Reusable rockets, crew transport, satellites, and deep-space systems</text>
+</svg>

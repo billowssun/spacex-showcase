@@ -1,0 +1,9 @@
+log/
+ssl/
+index/
+.vercel/
+node_modules/
+dist/
+*.log
+.DS_Store
+Thumbs.db

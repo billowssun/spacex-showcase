@@ -1,0 +1,16 @@
+{
+  "name": "spacex-showcase",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A static SpaceX showcase page ready for GitHub and Vercel.",
+  "scripts": {
+    "check": "node scripts/check-site.mjs",
+    "serve": "npx serve ."
+  },
+  "keywords": [
+    "spacex",
+    "static-site",
+    "vercel"
+  ],
+  "license": "MIT"
+}

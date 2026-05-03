@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title">
+  <title id="title">Falcon Heavy rocket illustration</title>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#101422"/>
+      <stop offset="1" stop-color="#1a202c"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0" x2="1">
+      <stop offset="0" stop-color="#eef3f8"/>
+      <stop offset=".42" stop-color="#8995a6"/>
+      <stop offset=".62" stop-color="#fff"/>
+      <stop offset="1" stop-color="#263142"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="520" rx="28" fill="url(#bg)"/>
+  <circle cx="568" cy="122" r="92" fill="#ff7a3d" opacity=".13"/>
+  <g transform="translate(360 54)">
+    <g opacity=".86">
+      <path d="M-105 66c35 54 52 112 52 174 0 74-19 124-52 148-33-24-52-74-52-148 0-62 17-120 52-174z" fill="url(#steel)"/>
+      <path d="M105 66c35 54 52 112 52 174 0 74-19 124-52 148-33-24-52-74-52-148 0-62 17-120 52-174z" fill="url(#steel)"/>
+    </g>
+    <path d="M0 0c48 74 72 153 72 238 0 94-27 155-72 184-45-29-72-90-72-184C-72 153-48 74 0 0z" fill="url(#steel)"/>
+    <path d="M-147 390h84l-42 82zm105 30h84L0 500zm105-30h84l-42 82z" fill="#ff7a3d"/>
+  </g>
+  <path d="M80 414c180-48 360-47 560 0v58H80z" fill="#080b12"/>
+  <text x="40" y="64" fill="#f7fbff" font-family="Arial, sans-serif" font-size="32" font-weight="700">Falcon Heavy</text>
+</svg>
