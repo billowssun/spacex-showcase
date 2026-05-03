@@ -3,7 +3,7 @@ const vehicleDetails = {
         type: 'Reusable launch vehicle',
         name: 'Falcon 9',
         summary: 'Falcon 9 是 SpaceX 最成熟的主力运载火箭。它真正改变行业的地方，是让一级火箭完成任务后回到地面或海上平台，经过检查和翻新后再次飞行。',
-        features: ['一级火箭可回收复用', '承担卫星、星链、货运和载人发射', '高频发射帮助团队不断优化流程', '让“火箭像飞机一样反复使用”更接近现实'],
+        features: ['一级火箭可回收复用', '承担卫星、星链、货运和载人发射', '高频发射推动流程持续优化', '让火箭重复使用更接近日常运营'],
         useCases: ['商业卫星发射', 'Starlink 卫星部署', '国际空间站补给', 'Crew Dragon 载人发射']
     },
     falconHeavy: {
@@ -53,7 +53,7 @@ function openDetail(key) {
             <p>${detail.summary}</p>
             <div class="detail-columns">
                 <section>
-                    <h3>普通人要看懂的点</h3>
+                    <h3>关键看点</h3>
                     <ul>${detail.features.map(item => `<li>${item}</li>`).join('')}</ul>
                 </section>
                 <section>

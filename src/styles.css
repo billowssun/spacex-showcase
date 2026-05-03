@@ -303,7 +303,25 @@ a {
 }
 
 .vehicles-section {
+    position: relative;
+    overflow: hidden;
     background: linear-gradient(180deg, var(--bg) 0%, #0b1120 100%);
+}
+
+.vehicles-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background:
+        linear-gradient(180deg, rgba(5, 7, 17, 0.72) 0%, rgba(11, 17, 32, 0.9) 100%),
+        url("../assets/starship-real.jpg") center 28% / cover no-repeat;
+    opacity: 0.18;
+}
+
+.vehicles-section .container {
+    position: relative;
+    z-index: 1;
 }
 
 .system-section {
@@ -341,6 +359,19 @@ a {
     color: var(--muted);
     font-size: 1.05rem;
     line-height: 1.8;
+}
+
+.vehicle-intro {
+    max-width: 950px;
+    text-wrap: pretty;
+}
+
+.vehicle-name {
+    display: inline-block;
+    color: #d8f3ff;
+    font-weight: 900;
+    white-space: nowrap;
+    text-shadow: 0 0 24px rgba(52, 213, 255, 0.28);
 }
 
 .split-layout,
@@ -900,6 +931,13 @@ a {
         background:
             linear-gradient(180deg, rgba(5, 7, 17, 0.72) 0%, rgba(5, 7, 17, 0.9) 72%, var(--bg) 100%),
             linear-gradient(90deg, rgba(5, 7, 17, 0.55), rgba(5, 7, 17, 0.3));
+    }
+
+    .vehicles-section::before {
+        background:
+            linear-gradient(180deg, rgba(5, 7, 17, 0.86) 0%, rgba(11, 17, 32, 0.78) 46%, rgba(11, 17, 32, 0.94) 100%),
+            url("../assets/starship-real.jpg") 58% top / auto 520px no-repeat;
+        opacity: 0.26;
     }
 
     .hero-actions {
